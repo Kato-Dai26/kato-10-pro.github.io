@@ -1,0 +1,375 @@
+body{
+  color: #393830;
+  font-family: sans-serif;
+  background-color: #959581;
+  background-image: url(../img/dog-haikei.jpg);
+}
+
+a:hover{
+  opacity: .5;
+}
+
+.post-title {
+  padding-bottom: 10px;
+  background-image: linear-gradient(45deg, #fff 30%, #ccc 30%, #ccc 50%, #fff 50%, #fff 80%, #ccc 80%, #ccc 100%);
+  background-size: 6px 6px;
+  margin-bottom: 1.5rem;
+}
+
+header{
+  text-align: center;
+  max-width: 1000px;
+  height: 170px;
+  background: url(../images/header.svg) no-repeat center top/cover;
+  margin: 2.5rem auto 0;
+}
+
+header h1{
+  background-color: #fff;
+  margin: 0 auto;
+  width: 300px;
+  height: 90px;
+  line-height: 90px;
+  font-family: 'Amatic SC', cursive;
+  /* padding-top: 50px; */
+  font-size: 3.75rem;
+}
+
+header p{
+  background-color: #fff;
+  margin: 15px auto 0; 
+  width: 450px;
+  font-size: 20px;
+  color: #242321;
+}
+
+main {
+  margin-bottom: 3rem;
+  background: #fff;
+  border-radius: 10px;
+}
+
+
+.container{
+  background-color: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 55px 1.5rem;
+  border-radius: 0 0 10px 10px;
+}
+
+article + article{
+  margin-top: 50px;
+}
+
+.post-title h2{
+  padding: 0.5rem .875rem;
+  background-color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.post-title a{
+  color: #949087;
+  text-decoration: none;
+}
+
+.main-pic{
+  position: relative;
+
+}
+
+.main-pic img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 40% 70% 50% 30%/50%;
+}
+
+.post-date{
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 80px;
+  line-height: 35px;
+  background-color: rgb(182, 233, 182);
+  border-radius: 15px 40px 15px 35px/30px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.post-date span{
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  font-size: 10px;
+  border-bottom: 1px dotted #fff;
+}
+
+article > p{
+  margin-top: 20px;
+  line-height: 1.5rem;
+  color: #949087;
+}
+
+.btn{
+  box-sizing: border-box;
+  width: 130px;
+  height: 65px;
+  line-height: 65px;
+  background-color: rgb(239, 158, 171);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.contact{
+  padding: 18px;
+  border: 2px dashed rgb(218, 133, 133);
+}
+
+.page{
+  padding-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: #949087;
+}
+
+.page div{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.page div + div{
+  margin-left: 20px;
+}
+
+.page div + div:hover{
+  background-color: rgb(177, 232, 213);
+  color: #fff;
+}
+
+.page_1{
+   background-color: rgb(194, 190, 190);
+   color: #fff;
+}
+
+.aside-list{
+  position: relative;
+  border: 1px solid #ccc;
+  outline: 2px solid #ccc;
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
+.aside-list .bi{
+  display: inline-block;
+  position: absolute;
+  top: -23px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 30px;
+  background-color: #fff;
+  padding: 0 3px;
+}
+
+.aside-list + .aside-list{
+  margin-top: 50px;
+}
+
+.aside-list h3{
+  padding: 40px 0 20px;
+  font-size: 25px;
+  color: #949087;
+  text-align: center;
+}
+
+.aside-list ul{
+  list-style: none;
+  font-size: 16px;
+}
+
+.aside-list li{
+  padding: 0 0 20px 15px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.aside-list li + li{
+  margin-top: 10px;
+}
+
+.aside-list li:last-of-type{
+  border-bottom: none;
+}
+
+.aside-list li::before{
+  display: inline-block;
+  content: '⚫︎';
+  color: rgb(177, 232, 213);
+  height: 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.aside-list p{
+  padding: 0 20px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  margin: 30px 0 20px;
+}
+
+input{
+  display: inline-block;
+  width: 75%;
+  border: 2px solid #ccc ;
+  padding: 15px 0px 15px 10px;
+  border-radius: 9px 0 0 9px;
+}
+
+button{
+  display: inline-block;
+  padding: 17px 15px;
+  background-color: pink;
+  border-radius: 0 9px 9px 0;
+  color: #fff;
+}
+
+footer{
+  padding: 50px 0;
+  background-color: rgb(153, 145, 145);
+  color: #fff;
+  text-align: center;
+}
+
+footer ul{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+footer ul li{
+  font-size: 16px;
+}
+
+footer ul li  + li{
+  margin-left: 20px;
+}
+
+footer small{
+  font-size: 13px;
+   color: #ccc;
+}
+
+.site-title{
+  font-size: 1.5rem;
+  padding: 13px 0 13px 10px;
+  border-top: 2px dotted #ccc;
+  border-bottom: 2px dotted #ccc;
+}
+
+article ul{
+  margin: 10px 0;
+  list-style: disc;
+  padding: 0 1rem;
+}
+
+article ul li{
+  font-size: 25px;
+  color: rgb(182, 233, 182);
+}
+
+article ul li span{
+  font-size: 16px;
+  color: #949087;
+}
+
+.article_pic img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+.article_sub{
+  margin-top: 50px;
+}
+
+.article_sub h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.article_sub ol{
+  list-style-type: decimal;
+  padding: 0 1.3rem;
+}
+
+.article_sub ol li{
+  color: rgb(182, 233, 182);
+}
+
+.article_sub ol li span{
+  font-size: 16px;
+  color: #949087;
+}
+
+.article_sub ol li + li{
+  margin-top: 10px;
+}
+
+.article_sub a{
+  text-decoration: underline;
+  color: rgb(182, 233, 182);
+}
+
+@media(min-width:600px){
+
+  .container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    padding: 1rem 2.5rem 2.5rem;
+  }
+
+  main{
+    width: 68%;
+    margin-bottom: 0;
+  }
+
+  .main-pic{
+    margin: 0 30px 50px 0;
+    shape-outside: circle();
+    float: left;
+  }
+
+  .main-pic img{
+    width: 220px;
+    height: 180px;
+  }
+
+  aside{
+    width: 26%;
+    margin-top: 30px;
+  }
+
+  button{
+    display: inline-block;
+    padding: 17px 8px;
+    background-color: pink;
+    border-radius: 0 9px 9px 0;
+    color: #fff;
+  }
+}
